@@ -1,0 +1,17 @@
+name: cache
+version: 0.1.0
+
+authors:
+  - Patrick Hurley <phurley@gmail.com>
+
+dependencies:
+  sqlite3:
+    github: crystal-lang/crystal-sqlite3
+
+targets:
+  cache:
+    main: src/cache.cr
+
+crystal: 1.0.0
+
+license: MIT
