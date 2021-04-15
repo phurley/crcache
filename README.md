@@ -10,18 +10,18 @@ make install
 
 ## Usage
 
-`crcache --help  
-crcache v0.1.0
-    -v, --version                    Show version
-    -h, --help                       Show help
-    -l, --list                       Show all cached commands
-    -d CMD, --delete=CMD             Delete specified command
-    -r, --refresh                    Refresh all cached commands
-    -t, --test                       Refresh test command
-    -D, --dump                       Display all cached results
+    crcache --help  
+    crcache v0.1.0
+        -v, --version                    Show version
+        -h, --help                       Show help
+        -l, --list                       Show all cached commands
+        -d CMD, --delete=CMD             Delete specified command
+        -r, --refresh                    Refresh all cached commands
+        -t, --test                       Refresh test command
+        -D, --dump                       Display all cached results
 
-crcache ansiweather
-`
+    crcache ansiweather
+
 Why? I have a few programs that take more than a few milliseconds to run, that I like
 to have run everytime I open a terminal window. I now have a cron job that keeps the
 data fresh (crcache -r) and then display the cached results when starting a terminal.
